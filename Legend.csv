@@ -1,0 +1,37 @@
+Column Label,Content
+case_id,
+site,site
+116_matched_pre-post_rna,"0:none, 1:yes"
+pre_nac_geo_id_gse87304,GEO sample ID in GSE87304 
+post_nac_geo_id_gse124305,GEO sample ID in GSE124305
+gdx_pre-nac_celfile,GenomeDx's preNAC celfile name which mostly correspond to GEO sample IDs
+gdx_post-nac_celfile,GenomeDx's postNAC celfile name which mostly correspond to GEO sample IDs
+gdx_patient_id,GenomeDx's patient ID
+gdx_pre_nac_sample_id,GenomeDx's preNAC sample ID
+gdx_post_nac_sample_id,GenomeDx's postNAC sample ID
+gdx_post_nac_sample_non_tumor_scar,1: no tumor left in postNAC samples
+gdx_node_sample_id,GenomeDx's node sample ID
+laga_pre_nac_sample_id,LAGA's preNAC sample ID
+laga_post_nac_sample_id,LAGA's postNAC sample ID
+pre_nac_path_id,specimen (and/or block) ID for preNAC sample 
+post_nac_path_id,specimen (and/or block) ID for postNAC sample 
+node_path_id,specimen (and/or block) ID for nodal sample 
+gender,gender
+age,age at cystectomy
+cstage,T-stage prior to intervention
+pstage,pathological T stage
+cN_stage,clinical Node stage (0=no lymph node involvement; 1=spread to one node in pelvis;N2 spread to 2 or more regional nodes in pelvis; 3=spread to common iliac nodes )
+pN,pathological N stage (0=no lymph node involvement; 1=spread to one node in pelvis;N2 spread to 2 or more regional nodes in pelvis; 3=spread to common iliac nodes)
+lni,"lymph node invasion; none(0), yes(1)"
+os_time,F/U (months) since cystectomy
+rec_time,F/U (months) since cystectomy to recurrence
+os,"0:alive, 1:dead"
+rec,"0:NED, 1:reccurenced"
+chemo_type,"Gcis,Gcarbo,MVAC,other"
+chemo_cycle,cycles of chemotherapy
+path_histology_primary,
+path_histology_secondary,
+ConsensusK5,ConsensusK5 subtypes of preNAC samples
+ConsensusK6,ConsensusK6 subtypes of preNAC samples
+postnac_cluster_GSE124305,PostNAC cluster of postNAC samples
+Pre-NAC cluster (GSE87304),PreNAC cluster of preNAC samples
